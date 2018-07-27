@@ -1,13 +1,13 @@
-class Dog
-  def initialize(breed)
-    @breed = breed
+class Person
+  def initialize(get_name)
+    @name = get_name
   end
  
-  def breed=(breed)
-    @breed = breed
+  def name=(get_name)
+    @name = name
   end
  
-  def breed
-    @breed
+  def name
+    @name
   end
 end
